@@ -1,0 +1,7 @@
+nonblock on
+defnonblock on
+vbell off
+startup_message off
+
+hardstatus alwayslastline
+hardstatus string '%{= .} %-Lw%{= .}%> %n%f %t*%{= .}%+Lw%< %-=%{g}(%{d}%H/%l%{g})'
