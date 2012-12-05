@@ -10,5 +10,6 @@
 
 [alias]
     review = !sh `git rev-parse --show-toplevel`/tools/rfc.sh
+
 [gitreview]
-	username = jk0
+    username = jk0
