@@ -1,0 +1,14 @@
+[user]
+    name = Josh Kearney
+    email = josh@jk0.org
+
+[color]
+    branch = true
+    diff = true
+    interactive = true
+    status = true
+
+[alias]
+    review = !sh `git rev-parse --show-toplevel`/tools/rfc.sh
+[gitreview]
+	username = jk0
