@@ -7,6 +7,7 @@ set textwidth=79
 set incsearch
 set ignorecase
 set infercase
+set nohlsearch
 
 set ruler
 
