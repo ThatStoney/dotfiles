@@ -8,11 +8,8 @@
     interactive = true
     status = true
 
-[alias]
-    review = !sh `git rev-parse --show-toplevel`/tools/rfc.sh
-
-[gitreview]
-    username = jk0
-
 [push]
 	default = simple
+
+[gitreview]
+	username = jk0
