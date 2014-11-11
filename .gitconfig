@@ -9,7 +9,7 @@
     status = true
 
 [push]
-	default = simple
+    default = simple
 
 [gitreview]
-	username = jk0
+    username = jk0
