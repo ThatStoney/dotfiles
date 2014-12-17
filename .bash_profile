@@ -4,8 +4,8 @@ if [ `uname` == 'Darwin' ]; then
         export PATH="/opt/subversion/bin:$PATH"
     fi
 
-    if [ -f `brew --prefix`/etc/bash_completion ]; then
-        . `brew --prefix`/etc/bash_completion
+    if [ -f $(brew --prefix)/etc/bash_completion ]; then
+        . $(brew --prefix)/etc/bash_completion
     fi
 
     export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
