@@ -10,5 +10,6 @@ if [ `uname` == 'Darwin' ]; then
 
     export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
+    alias rsa="~/src/rsa.sh"
     alias vnc="java -jar ~/src/VncViewer.jar url"
 fi
