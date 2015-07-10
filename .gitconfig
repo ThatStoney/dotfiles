@@ -8,8 +8,5 @@
     interactive = true
     status = true
 
-[push]
-    default = simple
-
 [gitreview]
     username = jk0
