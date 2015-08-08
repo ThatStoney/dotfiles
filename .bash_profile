@@ -8,7 +8,7 @@ if [ `uname` == 'Darwin' ]; then
         . $(brew --prefix)/etc/bash_completion
     fi
 
-    export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+    export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 
     alias torrent="scp ~/Desktop/*.torrent sookie:~/Desktop && rm ~/Desktop/*.torrent"
     alias rsa="~/src/rsa.sh"
