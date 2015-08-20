@@ -10,3 +10,6 @@
 
 [gitreview]
     username = jk0
+
+[push]
+	default = simple
