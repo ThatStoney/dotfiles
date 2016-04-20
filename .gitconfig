@@ -7,9 +7,3 @@
     diff = true
     interactive = true
     status = true
-
-[gitreview]
-    username = jk0
-
-[push]
-	default = simple
