@@ -12,5 +12,6 @@ if [ `uname` == 'Darwin' ]; then
 
     alias ip="curl icanhazip.com"
     alias torrent="scp ~/Desktop/*.torrent sookie:~/Desktop && rm ~/Desktop/*.torrent"
+    alias vpn="sshuttle --dns -r cooter:3128 0/0"
     alias vnc="java -jar ~/src/VncViewer.jar url"
 fi
