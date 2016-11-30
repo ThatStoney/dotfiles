@@ -11,7 +11,7 @@ if [ `uname` == 'Darwin' ]; then
     export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 
     alias ip="curl icanhazip.com"
-    alias torrent="scp ~/Desktop/*.torrent sookie:~/Desktop && rm ~/Desktop/*.torrent"
+    alias torrent="mv ~/Desktop/*.torrent ~/Dropbox/Deluge"
     alias vpn="sshuttle --dns -r cooter:3128 0/0"
     alias vnc="java -jar ~/src/VncViewer.jar url"
 fi
